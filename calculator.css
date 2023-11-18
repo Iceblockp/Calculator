@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.grid{
+    width: 490px;
+    padding: 30px;
+    text-align: center;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto auto;
+}
+button{
+    padding: 30px;
+    
+   
+}
+.grid1{
+    border: 1px solid black;
+    height: 50px;
+    text-align: left;
+    padding:0 10px;
+    line-height: 25px;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
